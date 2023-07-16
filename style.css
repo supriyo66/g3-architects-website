@@ -3,3 +3,56 @@
     
 font-family: 'Work Sans', sans-serif;
 }
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+}
+.nav-title{
+color:  #131313;
+font-size: 45px;
+
+}
+.banner-content{
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+text-align: center;
+font-size: 64px;
+font-weight: 700;
+
+}
+.banner-description{
+    color: #727272;
+font-size: 16px;
+font-weight:400px;
+}
+.btn-1{
+    border-radius: 8px;
+background: #FF900E;
+padding: 10px;
+margin-bottom: 10px;
+
+}
